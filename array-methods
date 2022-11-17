@@ -1,0 +1,48 @@
+
+push - Adds value to the end of array.
+unshift - Adds value to the start of array.
+pop - Removes a value from the end of array and returns it.
+shift - Removes a value from the start of array and returns it.
+splice - Removes value/values in the 2 given indexes and returns it.
+reverse - Reverses the array and returns it
+sort - Sorts the array alphabeticlly
+fill - Fills every element of the array with the given value.
+map - Perfoms a spesific action on all elements in a array and returns it.
+filter - Filters a array with a conditon and returns it.
+slice - Removes value/values in the 2 given indexes and returns it.
+concat - Combines 2 or more arrays and makes a new array and returns it
+flat - Converts a array of arrays into a single array and returns it
+flatMap - A combination of map and flat
+indexOf - Locates the index of given element and returns it
+find - filters array based on given value
+includes - Tells if given value output is true or false and returns it.
+some - Tells if given function output is true or false and returns it.
+every - Tells if given statement is true for all elements in the array
+join - joins a array on a given carecter and returns a string
+reduce - reduces the array in a single value and returns it
+forEach - Perfoms a spesific action on all elements in a array and returns it.
+toString - Converts array to string seprated by commas and returns it
+
+
+
+===================================
+
+
+[1, 2, 3].push(4); // [1, 2, 3, 4]
+[1, 2, 3].pop(); // [1, 2]
+[1, 2, 3].shift(); // [2, 3]
+[1, 2, 3].unshift(0); // [0, 1, 2, 3]
+['a', 'b'].concat('c'); // ['a', 'b', 'c']
+['a', 'b', 'c'].join('-'); // a-b-c
+['a', 'b', 'c'].slice(1); // ['b', 'c']
+['a', 'b', 'c'].indexOf('b'); // 1
+['a', 'b', 'c'].includes('c'); // true
+[3, 5, 6, 8].find((n) => n % 2 === 0); // 6
+[2, 4, 3, 5].findIndex((n) => n % 2 !== 0); // 2
+[3, 4, 8, 6].map((n) => n * 2); // [6, 8, 16, 12]
+[1, 4, 7, 8].filter((n) => n % 2 === 0); // [4, 8]
+[2, 4, 3, 7].reduce((acc, cur) => acc + cur); // 16
+[2, 3, 4, 5].every((x) => x < 6); // true
+[3, 5, 6, 8].some((n) => n > 6); // true
+[1, 2, 3, 4].reverse(); // [4, 3, 2, 1]
+[3, 5, 7, 8].at(-2); // 7
