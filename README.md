@@ -15,9 +15,9 @@ compositions.</h4>
 ![Codewars](https://www.codewars.com/users/Sardorbek-web/badges/micro)
 
 ### 🛠 Tech Stack and Tools
-| ![Frontend](https://img.shields.io/badge/-Frontend-black?style=flat)  ![React](https://img.shields.io/badge/-React-52BAD7?style=flat&logo=react&logoColor=white) |  ![Redux](https://img.shields.io/badge/-Redux-764ABC?style=flat&logo=redux)                                                                                          
-| ![IDE](https://img.shields.io/badge/-IDE-black?style=flat)    |      ![Visual Studio Code](https://img.shields.io/badge/-VS_Code-007ACC?style=flat&logo=Visual-Studio-Code)  | <br>
- | ![Others](https://img.shields.io/badge/-Others-black?style=flat)    |   ![Git](https://img.shields.io/badge/-Git-black?style=flat&logo=git) ![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github)      
+| End                                                                  | Stack                                                                                                                                                                                                                                                                                                                       |
+| -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Frontend](https://img.shields.io/badge/-Frontend-black?style=flat) | ![React](https://img.shields.io/badge/-React-52BAD7?style=flat&logo=react&logoColor=white) | !    
 
 [github-action]: https://img.shields.io/badge/-GitHub_Actions-black?style=flat&logo=github
 [gitmoji]: https://img.shields.io/badge/-😉_Gitmoji_Commit_Workflow-black?style=flat
